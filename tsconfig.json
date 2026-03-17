@@ -1,0 +1,14 @@
+{
+    "extends": ["@vue/tsconfig/tsconfig.json"],
+
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noFallthroughCasesInSwitch": true,
+        "strictPropertyInitialization": false,
+
+        "lib": ["esnext"]
+    },
+
+    "include": ["**/*"],
+    "exclude": ["node_modules"]
+}
