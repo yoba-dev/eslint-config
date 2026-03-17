@@ -1,1 +1,1 @@
-# ESLint конфиги
+# ESLint config
