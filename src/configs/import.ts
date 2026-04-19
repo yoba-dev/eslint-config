@@ -90,8 +90,11 @@ export const importConfig = defineConfig(
                         order: 'asc',
                         caseInsensitive: false,
                     },
+                    named: true,
                 },
             ],
+
+            'import-x/consistent-type-specifier-style': ['error', 'prefer-top-level'],
 
             'import-x/namespace': 'off', // TS делает это лучше и быстрее
         },
