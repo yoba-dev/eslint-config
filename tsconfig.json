@@ -6,7 +6,8 @@
         "noFallthroughCasesInSwitch": true,
         "strictPropertyInitialization": false,
 
-        "lib": ["esnext"]
+        "lib": ["esnext"],
+        "types": ["node"]
     },
 
     "include": ["**/*"],

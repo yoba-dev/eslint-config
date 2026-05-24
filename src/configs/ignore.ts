@@ -3,9 +3,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-import { includeIgnoreFile } from '@eslint/compat';
+import { includeIgnoreFile } from 'eslint/config';
 
-import { defineConfig, GLOB_EXCLUDE } from '../core';
+import { GLOB_EXCLUDE, defineConfig } from '../core';
 
 function createIgnoreConfig() {
     const gitignorePath = path.resolve(process.cwd(), '.gitignore');
